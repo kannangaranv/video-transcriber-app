@@ -1,0 +1,63 @@
+# .gitignore for FastAPI + React TypeScript Project
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+
+# Python environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
+
+# Testing files
+coverage/
+htmlcov/
+
+# FastAPI specific
+*.db
+instance/
+
+# Node.js (React frontend)
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Dependency directories
+**/node_modules
+
+# TypeScript
+*.tsbuildinfo
+
+# React build files
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Miscellaneous
+.DS_Store
+.idea/
+*.swp
+
+# macOS system files
+.DS_Store
+
+# Docker files
+*.pid
+docker-compose.override.yml
+
+# Logs from React
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

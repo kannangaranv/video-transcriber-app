@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pydub
+moviepy
+SpeechRecognition
+python-multipart
